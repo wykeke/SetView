@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="horizontal">
+
+<!--    <com.example.setview.CircularRing-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_margin="20dp"/>-->
+
+<!--    <com.example.setview.RingChart-->
+<!--        android:id="@+id/ringChart"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_margin="50dp"-->
+<!--        android:background="#DCFADD"-->
+<!--        />-->
+
+
+</FrameLayout>

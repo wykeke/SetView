@@ -46,6 +46,15 @@ public class RingChart extends View {
     private List<ViewData> viewDataList = new ArrayList<>();
     private float sumValue = 0;//数据值的总和
 
+    public float getSumValue() {
+        return sumValue;
+    }
+
+    public void setSumValue(float sumValue) {
+        this.sumValue = sumValue;
+        invalidate();
+    }
+
     //自定义动画
     private RingChartAnimation mAnimation;
 
